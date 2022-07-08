@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 95%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container h2 {
+  color: #d2872c;
+  font-size: 2rem;
+}
+
+.hamburguerMenu {
+  cursor: pointer;
+  display: none;
+}
+
+.hamburguerMenu div {
+  width: 25px;
+  height: 3px;
+  background-color: #766f68;
+  margin: 3px;
+}
+
+.container nav {
+  width: 30%;
+}
+
+.container ul {
+  margin-left: -30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container li {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #766f68;
+  list-style: none;
+  cursor: pointer;
+}
+
+.container li:hover {
+  transition: 1s;
+  color: #d2872c;
+}
+
+/* main  */
+
+main {
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+  height: 90vh;
+}
+
+.container_main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textAmazing {
+  width: 27vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: -90px;
+  margin-left: 65px;
+}
+
+.textAmazing h1 {
+  width: 33vw;
+  color: #766f68;
+  font-size: 3.7rem;
+}
+
+.textAmazing p {
+  color: #766f68;
+  font-size: 1.5rem;
+}
+
+.textAmazing button {
+  width: 19vw;
+  height: 9vh;
+  border: none;
+  background-color: #d2872c;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.textAmazing button:hover {
+  cursor: pointer;
+  color: #000;
+  transition: 1.5s;
+}
+
+.imageAmaziong figure {
+  width: 67vw;
+  height: 70vh;
+  position: relative;
+}
+
+.imageAmaziong img {
+  position: absolute;
+  top: 20px;
+  left: -55px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 425px) and (min-width: 375px) {
+  .container {
+    width: 80%;
+  }
+
+  .container h2 {
+    font-size: 2rem;
+  }
+
+  .container nav {
+    display: none;
+  }
+
+  .hamburguerMenu {
+    display: block;
+  }
+
+  .container_main {
+    flex-direction: column-reverse;
+  }
+
+  .textAmazing {
+    width: 70vw;
+    height: 40vh;
+    align-items: center;
+    gap: 15px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .textAmazing h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    width: 80vw;
+  }
+
+  .textAmazing p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .textAmazing button {
+    width: 55vw;
+    height: 9vh;
+    border: none;
+    font-size: 1.4rem;
+  }
+
+  .imageAmaziong figure {
+    width: 70vw;
+    height: 30vh;
+  }
+
+  .imageAmaziong img {
+    top: 0px;
+    left: 0px;
+  }
+}
