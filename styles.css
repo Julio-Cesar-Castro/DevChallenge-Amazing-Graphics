@@ -118,7 +118,7 @@ main {
 
 .textAmazing button:hover {
   cursor: pointer;
-  color: #000;
+  color: #766f68;
   transition: 1.5s;
 }
 
@@ -135,6 +135,228 @@ main {
   z-index: -1;
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 1265px) and (min-width: 1130px) {
+  .textAmazing h1 {
+    font-size: 3.5rem;
+    width: 40vw;
+  }
+
+  .textAmazing p {
+    font-size: 1.4rem;
+    width: 30vw;
+  }
+
+  .textAmazing button {
+    height: 9vh;
+    font-size: 1.5rem;
+  }
+
+  .imageAmaziong figure {
+    height: 65vh;
+  }
+}
+
+@media (max-width: 1129px) and (min-width: 930px) {
+  .textAmazing h1 {
+    width: 45vw;
+  }
+
+  .textAmazing p {
+    width: 30vw;
+    font-size: 1.2rem;
+  }
+
+  .textAmazing button {
+    height: 8vh;
+  }
+
+  .imageAmaziong figure {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 929px) and (min-width: 760px) {
+  .container h2 {
+    font-size: 3rem;
+  }
+
+  .container nav {
+    display: none;
+  }
+
+  .hamburguerMenu {
+    display: block;
+  }
+
+  .hamburguerMenu div {
+    width: 40px;
+    height: 5px;
+    margin: 4px;
+  }
+
+  .container_main {
+    flex-direction: column-reverse;
+  }
+
+  .textAmazing {
+    width: 70vw;
+    height: 40vh;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .textAmazing h1 {
+    font-size: 4rem;
+    text-align: center;
+    width: 60vw;
+  }
+
+  .textAmazing p {
+    font-size: 1.7rem;
+    width: 53vw;
+    text-align: center;
+  }
+
+  .textAmazing button {
+    width: 45vw;
+    height: 8vh;
+    border: none;
+    font-size: 1.4rem;
+  }
+
+  .imageAmaziong figure {
+    width: 70vw;
+    height: 45vh;
+  }
+
+  .imageAmaziong img {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@media (max-width: 759px) {
+  .container h2 {
+    font-size: 2.6rem;
+  }
+
+  .container nav {
+    display: none;
+  }
+
+  .hamburguerMenu {
+    display: block;
+  }
+
+  .hamburguerMenu div {
+    width: 40px;
+    height: 5px;
+    margin: 4px;
+  }
+
+  .container_main {
+    flex-direction: column-reverse;
+  }
+
+  .textAmazing {
+    width: 70vw;
+    height: 40vh;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .textAmazing h1 {
+    font-size: 3.3rem;
+    text-align: center;
+    width: 60vw;
+  }
+
+  .textAmazing p {
+    font-size: 1.5rem;
+    width: 53vw;
+    text-align: center;
+  }
+
+  .textAmazing button {
+    width: 45vw;
+    height: 8vh;
+    border: none;
+    font-size: 1.4rem;
+  }
+
+  .imageAmaziong figure {
+    width: 65vw;
+    height: 40vh;
+  }
+
+  .imageAmaziong img {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@media (max-width: 630px) {
+  .container h2 {
+    font-size: 2.5rem;
+  }
+
+  .container nav {
+    display: none;
+  }
+
+  .hamburguerMenu {
+    display: block;
+  }
+
+  .hamburguerMenu div {
+    width: 40px;
+    height: 5px;
+    margin: 4px;
+  }
+
+  .textAmazing {
+    width: 70vw;
+    height: 40vh;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .textAmazing h1 {
+    font-size: 2.7rem;
+    text-align: center;
+    width: 75vw;
+  }
+
+  .textAmazing p {
+    font-size: 1.4rem;
+    width: 75vw;
+    text-align: center;
+  }
+
+  .textAmazing button {
+    width: 45vw;
+    height: 8vh;
+    border: none;
+    font-size: 1.4rem;
+  }
+
+  .imageAmaziong figure {
+    width: 70vw;
+    height: 35vh;
+  }
+
+  .imageAmaziong img {
+    top: 0px;
+    left: 0px;
+  }
 }
 
 @media (max-width: 425px) and (min-width: 375px) {
@@ -183,6 +405,72 @@ main {
     height: 9vh;
     border: none;
     font-size: 1.4rem;
+  }
+
+  .imageAmaziong figure {
+    width: 70vw;
+    height: 30vh;
+  }
+
+  .imageAmaziong img {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@media (max-width: 374px) {
+  .container {
+    width: 90%;
+  }
+
+  .container h2 {
+    font-size: 2rem;
+  }
+
+  .container nav {
+    display: none;
+  }
+
+  .hamburguerMenu {
+    display: block;
+  }
+
+  .hamburguerMenu div {
+    width: 30px;
+    height: 3px;
+    margin: 3px;
+  }
+
+  .container_main {
+    flex-direction: column-reverse;
+  }
+
+  .textAmazing {
+    width: 70vw;
+    height: 40vh;
+    align-items: center;
+    gap: 15px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .textAmazing h1 {
+    font-size: 2rem;
+    text-align: center;
+    width: 80vw;
+  }
+
+  .textAmazing p {
+    font-size: 1.1rem;
+    width: 80vw;
+    text-align: center;
+  }
+
+  .textAmazing button {
+    width: 55vw;
+    height: 7vh;
+    border: none;
+    font-size: 1.2rem;
   }
 
   .imageAmaziong figure {
